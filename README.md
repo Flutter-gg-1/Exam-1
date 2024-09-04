@@ -1,8 +1,16 @@
-# Exam-1
-## Answer and submit the following questions:
-- What is GetStorage in Flutter, and how does it differ from other local storage options like SharedPreferences?
-- How can you store and retrieve simple key-value pairs using GetStorage? Provide a code example.
-- What is GetIt in Flutter, and how does it help with dependency injection?
-- Describe how to register and retrieve a singleton service using GetIt. Provide an example.
-- Explain the BLoC pattern in Flutter and how it helps manage state?
-- How do you implement a BLoC for managing the state of a counter app? Outline the steps and code structure. 
+# exam1
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
