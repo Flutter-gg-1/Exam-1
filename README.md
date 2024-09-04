@@ -7,7 +7,11 @@
 
 - How can you store and retrieve simple key-value pairs using GetStorage? Provide a code example.
 
-box.write ("key",value);
+box.write ("key",value); this code will store data in the memory
+
+
+
+box.read ("key") this code will retrieve the data
 
 - What is GetIt in Flutter, and how does it help with dependency injection?
 
@@ -17,9 +21,11 @@ box.write ("key",value);
 
 -Gitit.i.registersingleton<taskdata>(taskdata);
 
+
+
 - Explain the BLoC pattern in Flutter and how it helps manage state?
 
-- BloC can healp the app with refrish widget with out using set satete and it can healp to orgnaize the the project and increace the performance (so we use it to setstat or refich only the bloc that we need with out refresh all the page)
+- BloC can healp the app with refrish widget with out using set satete and it can healp to orgnaize the the project and increace the performance (so we use it to setstat or refrich only the bloc that we need with out refresh all the page)
 
 - How do you implement a BLoC for managing the state of a counter app? Outline the steps and code structure. 
 
