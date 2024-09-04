@@ -24,8 +24,18 @@ box.write ("key",value);
 - How do you implement a BLoC for managing the state of a counter app? Outline the steps and code structure. 
 
 1- using bloc provider in main page with material app.
+
+
 2-implement the Bloc in the fail by clicking on the file then we chose the bloc
-4-we have 3 structure in Bloc:
+
+
+3-we have 3 structure in Bloc:
+
+
 1-bloc event
+
+
 2-bloc
+
+
 3- state bloc
