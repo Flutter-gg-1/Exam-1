@@ -24,10 +24,25 @@ ShowCounterState({required this.counter});
 ```
 3- create evenet to trigger bloc 
 ```
-class counterEvent extend event{}
+class CounterEvent extend event{}
 ```
 
-4- create login in bloc
+4- create login in bloc body
+```
+on<CounterEvent>((emit,state){
+emit.CounterState(counter:++counter)
+})
 ```
 
+5- build in wdiget 
 ```
+builder(
+context:context,
+body:
+BlocBuilder((CounterBloc, CounterState)
+build: (state,context)
+/////build state
+)
+)
+```
+
